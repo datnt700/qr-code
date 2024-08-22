@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      src="https://kit.fontawesome.com/704ff50790.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>QR CODE</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="user-input">
+        <div class="images">
+          <img class="logo" src="./assets/logo-qr-generator.svg" alt="" />
+          <img
+            class="illustration"
+            src="./assets//bg-illustration.svg"
+            alt=""
+          />
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            class="text"
+            name="text"
+            placeholder="Enter an url"
+          />
+          <button class="btn input">QR code</button>
+        </div>
+        <div class="qr-code-container">
+          <div class="qr-code"></div>
+          <div class="buttons">
+            <div class="btn code download"></div>
+            <div class="btn code share"></div>
+          </div>
+          <div class="share-buttons">
+            <button class="share-button facebook">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button class="share-button twitter">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button class="share-button linkedin">
+              <i class="fab fa-linkedin-in"></i>
+            </button>
+            <button class="share-button pinterest">
+              <i class="fab fa-pinterest"></i>
+            </button>
+            <button class="share-button reddit">
+              <i class="fab fa-reddit-alien"></i>
+            </button>
+            <button class="share-button whatsapp">
+              <i class="fab fa-whatsapp"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="./app.js"></script>
+</html>

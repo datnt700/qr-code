@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #111729;
+  height: 100vh;
+}
+
+.user-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.images {
+  position: relative;
+}
+.images .logo {
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+.images .illustration {
+  width: 25rem;
+  position: absolute;
+  left: 10rem;
+  bottom: -15rem;
+}
+
+.btn {
+  padding: 0.3rem 2.2rem;
+  background-color: #3662e3;
+  border: none;
+  border-radius: 10px;
+  height: 2.6rem;
+  color: #f2f5f9;
+  cursor: pointer;
+}
+.btn.input {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.btn.code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+.buttons a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #eae6e5;
+}
+
+.search-bar {
+  width: 500px;
+  height: 3.3rem;
+  position: relative;
+}
+.search-bar .text {
+  padding: 0.5rem 2rem;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #3662e3;
+  border-radius: 10px;
+  background-color: #111729;
+  color: #f2f5f9;
+  outline: none;
+}
+
+::placeholder {
+  color: #364153;
+}
+
+.qr-code-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  display: none;
+}
+.qr-code-container .qr-code {
+  display: flex;
+  border-radius: 50%;
+  background-color: rgba(124, 124, 124, 0.2);
+  width: fit-content;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+.qr-code-container .qr-code img {
+  padding: 1rem;
+  background-color: #f2f5f9;
+  border-radius: 20px;
+}
+
+.share-buttons {
+  display: none;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.share-buttons.active {
+  display: flex;
+}
+.share-buttons .share-button {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+.share-buttons .facebook {
+  background-color: #3b5998;
+}
+.share-buttons .twitter {
+  background-color: #1da1f2;
+}
+.share-buttons .linkedin {
+  background-color: #0077b5;
+}
+.share-buttons .pinterest {
+  background-color: #bd081c;
+}
+.share-buttons .reddit {
+  background-color: #ff4500;
+}
+.share-buttons .whatsapp {
+  background-color: #25d366;
+}
+
+/*# sourceMappingURL=styles.css.map */
